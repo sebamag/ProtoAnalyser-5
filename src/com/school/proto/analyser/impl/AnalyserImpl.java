@@ -9,7 +9,7 @@ import com.school.proto.analyser.AbstractAnalyser;
 
 public class AnalyserImpl implements AbstractAnalyser{
 
-	private static final String VERSION_TARGETDURATION = "#EXT-X-TARGETDURATION"; //Changed this EXT-X-TARGETDURATION
+	private static final String VERSION_TARGETDURATION = "#EXT-X-TARGETDURATION";
 	private static final String EXT_X_VERSION = "#EXT-X-VERSION";
 	private static final String EXTM3U2 = "#EXTM3U";
 	private static final String EXT_X_STREAM_INF = "#EXT-X-STREAM-INF:";
@@ -87,7 +87,7 @@ public class AnalyserImpl implements AbstractAnalyser{
 			}
 			
 			if(i == 2) {
-				if(!inputLine.startsWith(VERSION_TARGETDURATION)){ //Changed this EXT-X-TARGETDURATION
+				if(!inputLine.startsWith(VERSION_TARGETDURATION)){ 
 					
 					writer.println("Level2 Playlist:  ERR24    ||    VERSION ISSUE                            ||    "    +fileName+    "          ||    Version Tag Error");
 				}else {

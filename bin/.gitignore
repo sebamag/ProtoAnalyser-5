@@ -1,10 +1,12 @@
+/com/
+/._com
 /.DS_Store
+/._.DS_Store
 /Analyser$1.class
 /Analyser$2.class
 /Analyser$3.class
-/Analyser$4.class
-/Analyser.class
 /Log$1.class
 /Log$2.class
 /Log.class
-/com/
+/Analyser$4.class
+/Analyser.class
