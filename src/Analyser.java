@@ -164,10 +164,10 @@ public class Analyser extends javax.swing.JFrame {
 			}
 			analyser.analyseLevel1(level1Url, baseUrl,writer);
 			analyser.analyseLevel2(level2Url, baseUrl,writer);
-			analyser.analyseLevel2(level3Url, baseUrl,writer);//changed that
-			analyser.analyseLevel2(level4Url, baseUrl,writer);//changed that
-			analyser.analyseLevel2(level5Url, baseUrl,writer);//changed that
-			//analyser.analyseLevel1(level3Url, baseUrl,writer);//changed that
+			analyser.analyseLevel2(level3Url, baseUrl,writer);
+			analyser.analyseLevel2(level4Url, baseUrl,writer);
+			analyser.analyseLevel2(level5Url, baseUrl,writer);
+			
 			
 			writer.close();
 			in.close();
@@ -179,12 +179,12 @@ public class Analyser extends javax.swing.JFrame {
 
 	public static void main(String args[]) {
 		Analyser mainFrame = new Analyser();
-		mainFrame.setSize(600, 400);
+		mainFrame.setSize(600, 350);
 		mainFrame.setVisible(true);
 
 	}
 
-	// Variables declaration - do not modify
+
 	private javax.swing.JButton jButton1;
 	private javax.swing.JButton jButton2;
 	private javax.swing.JButton jButton3;
